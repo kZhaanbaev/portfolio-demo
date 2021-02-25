@@ -1,3 +1,7 @@
+html {
+    --blue-color: rgb(141, 220, 247);
+    --grey-color: rgb(44, 46, 46);
+}
 
 
 /* ----------- HEADER SECTION WITH NAV BAR ----------*/
@@ -5,7 +9,7 @@
 header {
     height: 90px;
     line-height: 90px;
-    background: rgb(36, 36, 36);
+    background: var(--grey-color);
     padding-top: 5px;
 }
 
@@ -16,10 +20,10 @@ header {
     line-height: 60px;
     margin: 10px auto auto 0px;
     padding-right: 20px;
-    background: rgb(49, 193, 241);
-    color: rgb(36, 36, 36);
+    background: var(--blue-color);
+    color: var(--grey-color);
     text-align: right;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .navbar {
@@ -32,7 +36,7 @@ header {
 nav {
     padding: 0 10px 0 10px;
     display: inline-block;
-    color: rgb(49, 193, 241);
+    color: var(--blue-color);
     font-size: 20px;
     font-weight: 700;
     margin: 10px;
@@ -50,4 +54,25 @@ nav {
 #banner {
     background-image: url("/assets/images/banner-image.jpg");
     height: 200px;
+    padding-top: 110px;
 }
+
+.subtitle {
+    width: 350px;
+    height: 80px;
+    margin: auto 80px auto auto;
+    background: var(--blue-color);
+}
+
+.subtitle > p {
+    padding: 5px;
+    padding-right: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Permanent Marker';
+    color: var(--grey-color);
+    text-align: end;
+}
+
+/* ------------ MAIN SECTION ------------*/
+
