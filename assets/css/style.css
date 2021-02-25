@@ -1,0 +1,53 @@
+
+
+/* ----------- HEADER SECTION WITH NAV BAR ----------*/
+
+header {
+    height: 90px;
+    line-height: 90px;
+    background: rgb(36, 36, 36);
+    padding-top: 5px;
+}
+
+.header-name {
+    display: inline-block;
+    width: 260px;
+    height: 60px;
+    line-height: 60px;
+    margin: 10px auto auto 0px;
+    padding-right: 20px;
+    background: rgb(49, 193, 241);
+    color: rgb(36, 36, 36);
+    text-align: right;
+    font-size: 35px;
+}
+
+.navbar {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    margin: 10px 60px;
+}
+
+nav {
+    padding: 0 10px 0 10px;
+    display: inline-block;
+    color: rgb(49, 193, 241);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.underlined {
+    border-bottom: 4px solid currentColor;
+    display: inline-block;
+    line-height: 1.5;
+
+}
+
+/* ---------- MAIN BANNER -----------*/
+
+#banner {
+    background-image: url("/assets/images/banner-image.jpg");
+    height: 200px;
+}
