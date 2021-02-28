@@ -201,10 +201,6 @@ nav a {
 }
 
 
-
-
-
-
 /* ----------- FOOTER ------------*/
 
 footer {
@@ -217,3 +213,54 @@ footer {
 
 
 /*------------RESPONSIVE ITEMS ---------------*/
+
+@media screen and (max-width: 1519px){
+    html{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 896px){
+    header {
+        height: 185px;
+    }
+    
+    .header-name {
+        display: block;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .header-name h1 {
+        text-align: center;
+    }
+    
+    .navbar {
+        display: block;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .underlined {
+        border-bottom: 4px solid currentColor;
+        display: inline-block;
+        line-height: 1.5;
+    
+    }
+
+    .grid-item h1 {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        letter-spacing: -10px;
+    }
+
+    .contact-me-content{
+        flex-direction: column;
+    }
+    
+    .contact-me-content a{
+        margin-left: 0px;
+    }
+}
