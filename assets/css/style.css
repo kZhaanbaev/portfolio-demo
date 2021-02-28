@@ -15,6 +15,10 @@ h1 {
     color: var(--grey-color);
 }
 
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* ----------- HEADER SECTION WITH NAV BAR ----------*/
 
 header {
@@ -51,6 +55,11 @@ nav {
     font-size: 20px;
     font-weight: 700;
     margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .underlined {
@@ -149,7 +158,7 @@ nav {
     display: inline-block;
     padding: 12px;
     background: var(--blue-color);
-    font-family: 'Roboto';
+    
 }
 
 .child-grid-banner h3 {
@@ -174,8 +183,21 @@ nav {
     height: 415px;
 }
 
-.contact-me, .contact-me-content {
+/*-------------- CONTACT ME SECTION --------------- */
+
+.contact-me-content{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    line-height: 100%;
     
+}
+
+.contact-me-content a{
+    margin: auto;
+    margin-right: 25px;
+    border-bottom: 2px solid var(--grey-color);
+    text-decoration: none;
 }
 
 
@@ -185,3 +207,13 @@ nav {
 
 /* ----------- FOOTER ------------*/
 
+footer {
+    height: 100px;
+    line-height: 100px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+/*------------RESPONSIVE ITEMS ---------------*/
